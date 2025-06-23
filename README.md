@@ -86,4 +86,4 @@ Este projeto faz parte da disciplina Projeto Integrador IV-A do curso de ADS (Ea
 
 Desenvolvido por:
 Felipe Leite
-linkedin.com/in/felbart
+[Meu LinkedIn](https://www.linkedin.com/in/felbart)
