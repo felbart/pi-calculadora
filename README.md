@@ -54,8 +54,6 @@ Teste propositalmente incorreto para demonstração
 Baixe ou clone o repositório:
 
 ```
-Copiar
-Editar
 git clone https://github.com/seu-usuario/pi-calculadora.git
 Adicione o JUnit à pasta lib/
 
@@ -68,15 +66,11 @@ Compile os arquivos:
 Execute o script compile.bat ou rode no terminal:
 
 ```
-Copiar
-Editar
 javac -cp lib\junit-platform-console-standalone-1.10.0.jar -d bin src\main\java\Calc.java src\test\java\CalcTest.java
 ```
 Execute os testes:
 
 ```
-Copiar
-Editar
 java -jar lib\junit-platform-console-standalone-1.10.0.jar --classpath bin --scan-classpath
 ```
 
