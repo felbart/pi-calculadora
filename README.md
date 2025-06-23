@@ -25,3 +25,62 @@ calculadora/
 ├── compile.bat                 # Script para compilar o projeto
 ├── run-tests.bat              # Script para rodar os testes
 └── README.md
+
+✅ Funcionalidades
+Operações básicas: soma, subtração, multiplicação e divisão
+
+Tratamento de exceção para divisão por zero
+
+Testes automatizados com cobertura de:
+
+Casos comuns
+
+Operações com zero
+
+Valores negativos
+
+Limites de inteiros (Integer.MAX_VALUE e Integer.MIN_VALUE)
+
+Simulação de overflow
+
+Verificação de exceções
+
+Teste propositalmente incorreto para demonstração
+
+🚀 Como Executar
+Baixe ou clone o repositório:
+
+bash
+Copiar
+Editar
+git clone https://github.com/seu-usuario/pi-calculadora.git
+Adicione o JUnit à pasta lib/
+Baixe o .jar do JUnit 5 aqui:
+Download - junit-platform-console-standalone-1.10.0.jar
+
+Compile os arquivos:
+Execute o script compile.bat ou rode no terminal:
+
+bash
+Copiar
+Editar
+javac -cp lib\junit-platform-console-standalone-1.10.0.jar -d bin src\main\java\Calc.java src\test\java\CalcTest.java
+Execute os testes:
+
+bash
+Copiar
+Editar
+java -jar lib\junit-platform-console-standalone-1.10.0.jar --classpath bin --scan-classpath
+🔄 Controle de Versão
+Branch principal: main
+
+Branch de funcionalidade: feature/calculadora
+
+Commits organizados e merge realizado conforme boas práticas
+
+📚 Projeto Acadêmico
+Este projeto faz parte da disciplina Projeto Integrador IV-A do curso de ADS (EaD) da PUC Goiás, com foco prático na aplicação de testes, versionamento e qualidade de código.
+
+Desenvolvido por:
+Felipe Leite
+linkedin.com/in/felbart
